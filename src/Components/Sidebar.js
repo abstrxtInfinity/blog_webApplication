@@ -48,13 +48,13 @@ function Sidebar() {
                 <div className="endline">
                     <ul className="sci">
                         <li>
-                            <Link to="#">Instagram</Link>
+                            <Link to="#" target="_blank">Instagram</Link>
                         </li>
                         <li>
-                            <Link to="#">Facebook</Link>
+                            <Link to="#" target="_blank">Facebook</Link>
                         </li>
                         <li>
-                            <Link to="#">Github</Link>
+                            <Link to="#" target="_blank">Github</Link>
                         </li>
                     </ul>
                 </div>

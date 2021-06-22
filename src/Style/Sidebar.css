@@ -3,8 +3,8 @@
   --color: #1c1c20;
 }
 header {
+  height: 60px;
   background-color: var(--bg);
-  height: 80px;
 }
 
 .nav-menu {
@@ -43,7 +43,6 @@ header {
   justify-content: flex-start;
   align-items: center;
   padding: 0 16px;
-  border-radius: 4px;
 }
 .nav-text a:hover {
   color: #fff;

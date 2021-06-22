@@ -6,6 +6,9 @@ function Home() {
     return (
         <>
             <section className="blog-section">
+                <div className="heading">
+                     <h2>Here is where we tell our stories</h2>
+               </div>
                 <div className="blogs">
                 {
                 BlogData.map((item, index) => {

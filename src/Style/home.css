@@ -1,12 +1,30 @@
 .blog-section {
   padding-left: 30px;
+  position: relative;
 }
+.heading {
+  width: 90%;
+  /* padding: 80px 0 20px 0; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .blogs {
   display: grid;
+  border-top: 2px solid #000;
   grid-template-columns: repeat(auto-fill, 400px);
   grid-auto-rows: auto;
   width: 90%;
-  padding: 0px 20px;
+  padding: 20px 20px;
   height: 100%;
   grid-column-gap: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .blogs {
+    padding: 20px 0px;
+  }
 }
