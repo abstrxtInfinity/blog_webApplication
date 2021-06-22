@@ -9,21 +9,21 @@ function Contributors() {
             <section>
 
                 <h2>Bloggers</h2>
-                <div className="container blogger">
+                <div className=" blogger">
                     <CircleCard name="Anant Verma" imgUrl="https://source.unsplash.com/user/erondu" githubUrl="" />
                     <CircleCard name="Elon Musk" imgUrl="https://source.unsplash.com/random" githubUrl="" />
                     <CircleCard name="Stephen Hawking" imgUrl="https://source.unsplash.com/user/john" githubUrl="" />
+                    <CircleCard name="Stephen Hawking" imgUrl="https://source.unsplash.com/user/doe" githubUrl="" />
                     <CircleCard name="Stephen Hawking" imgUrl="https://source.unsplash.com/user/john" githubUrl="" />
                     <CircleCard name="Stephen Hawking" imgUrl="https://source.unsplash.com/user/john" githubUrl="" />
-                    <CircleCard name="Stephen Hawking" imgUrl="https://source.unsplash.com/user/john" githubUrl="" />
-                    <CircleCard name="Stephen Hawking" imgUrl="https://source.unsplash.com/user/john" githubUrl="" />
+                    <CircleCard name="Stephen Hawking" imgUrl="https://source.unsplash.com/user/smith" githubUrl="" />
                     <CircleCard name="Stephen Hawking" imgUrl="https://source.unsplash.com/user/john" githubUrl="" />
                     <CircleCard name="Stephen Hawking" imgUrl="https://source.unsplash.com/user/john" githubUrl="" />
                     <CircleCard name="Stephen Hawking" imgUrl="https://source.unsplash.com/user/john" githubUrl="" />
 
                 </div>
                 <h2>Developer</h2>
-                <div className="container developer" >
+                <div className=" developer" >
                     <div className="card">
                         <div className="imgBx">
                             <img

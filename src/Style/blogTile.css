@@ -1,0 +1,59 @@
+:root {
+  --bg: #ebebeb;
+  --color: #1c1c20;
+}
+.blog-tile {
+  width: 400px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-overflow: clip;
+  padding: 0 10px;
+  margin: 10px 0px;
+}
+.blog-tile .imgBox {
+  height: 200px;
+  margin-bottom: 35px;
+  width: 100%;
+}
+.blog-tile .imgBox img {
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.582);
+  height: 200px;
+}
+
+.blog-tile h3 {
+  padding: 15px 0;
+  border-bottom: 2px solid var(--color);
+  border-top: 2px solid var(--color);
+  text-transform: capitalize;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.blog-tile .description {
+  font-size: 12px;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 15px 5px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.blog-tile .tags {
+  font-size: 10px;
+  width: 100%;
+  text-align: left;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 5px;
+  color: rgb(116, 116, 116);
+}
+
+.empty {
+  width: 100%;
+  height: 10px;
+}

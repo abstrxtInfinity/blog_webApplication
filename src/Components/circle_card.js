@@ -14,6 +14,8 @@ function CircleCard(props) {
                     <Link to={props.githubUrl}
                     ><i className="fa fa-github" aria-hidden="true"></i
                     ></Link>
+
+
                 </div>
             </div>
         </>

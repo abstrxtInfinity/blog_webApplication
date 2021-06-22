@@ -1,0 +1,12 @@
+.blog-section {
+  padding-left: 30px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  grid-auto-rows: auto;
+  width: 90%;
+  padding: 0px 20px;
+  height: 100%;
+  grid-column-gap: 20px;
+}

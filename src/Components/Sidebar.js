@@ -7,6 +7,21 @@ import '../Style/Sidebar.css'
 
 
 function Sidebar() {
+    function scrollClose() {
+        let y = window.scrollY;
+        const menuToggle = document.querySelector('.icon');
+        const navigation = document.querySelector('.nav-menu');
+
+        if ((y > 0 && (y > 0 && menuToggle.classList.contains("active")))) {
+            menuToggle.classList.remove('active');
+            navigation.classList.remove('active');
+
+        }
+
+    };
+    window.addEventListener("scroll", scrollClose);
+
+
     const [sidebar, setSidebar] = useState(false);
     const toggleSidebar = () => setSidebar(!sidebar);
     return (

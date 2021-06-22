@@ -170,10 +170,6 @@ textarea {
     font-size: 26px;
   }
 
-  .underline {
-    width: 68px;
-  }
-
   #form_button {
     padding: 15px 25px;
   }
@@ -184,14 +180,8 @@ textarea {
     font-size: 18px;
   }
 
-  .icon {
-    height: 35px;
-    width: 35px;
-  }
-
   input[type="text"],
   [type="email"],
-  select,
   textarea {
     font-size: 0.875em;
   }

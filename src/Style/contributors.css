@@ -14,7 +14,8 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
-.container {
+.blogger,
+.developer {
   width: 80%;
   height: 50%;
   margin-top: 10px;
