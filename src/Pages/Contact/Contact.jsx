@@ -1,5 +1,4 @@
-import React from "react";
-import "../Style/contact.css";
+import "./contact.css";
 
 function Contact() {
   return (
@@ -32,7 +31,7 @@ function Contact() {
             <div className="telephone">
               <label htmlFor="name"></label>
               <input
-                type="text"
+                type="tel"
                 placeholder="My number is"
                 name="telephone"
                 id="telephone_input"
@@ -64,8 +63,8 @@ function Contact() {
             </div>
           </form>
         </div>
-          </section>
-     </>
+      </section>
+    </>
   );
 }
 

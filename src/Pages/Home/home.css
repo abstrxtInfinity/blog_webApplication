@@ -13,14 +13,14 @@
 }
 
 .blogs {
-  display: grid;
   border-top: 2px solid #000;
+  display: grid;
   grid-template-columns: repeat(auto-fill, 400px);
   grid-auto-rows: auto;
+  grid-column-gap: 20px;
   width: 90%;
   padding: 20px 20px;
   height: 100%;
-  grid-column-gap: 20px;
 }
 
 @media screen and (max-width: 480px) {

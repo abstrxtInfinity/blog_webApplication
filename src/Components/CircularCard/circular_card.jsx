@@ -1,5 +1,5 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
+import "./circular_card.css"
 
 function CircleCard(props) {
 
@@ -11,9 +11,9 @@ function CircleCard(props) {
                 </div>
                 <div className="details">
                     <h3>{props.name}</h3>
-                    <Link to={props.githubUrl}
+                    {props.githubUrl === "" ? <Link to="#"><i className="fas fa-ghost"></i></Link> : <a target="_blank" href={props.githubUrl}
                     ><i className="fa fa-github" aria-hidden="true"></i
-                    ></Link>
+                    ></a>}
 
 
                 </div>
@@ -23,3 +23,4 @@ function CircleCard(props) {
 }
 
 export default CircleCard
+

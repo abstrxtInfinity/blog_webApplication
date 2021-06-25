@@ -61,6 +61,7 @@ h1 {
 
 input[type="text"],
 [type="email"],
+[type="tel"],
 textarea {
   background: none;
   border: none;
@@ -86,6 +87,7 @@ textarea {
 
 input[type="text"]:focus,
 [type="email"]:focus,
+[type="tel"]:focus,
 textarea:focus {
   outline: none;
   padding: 0 0 0.875em 0;
@@ -182,6 +184,7 @@ textarea {
 
   input[type="text"],
   [type="email"],
+[type="tel"],
   textarea {
     font-size: 0.875em;
   }

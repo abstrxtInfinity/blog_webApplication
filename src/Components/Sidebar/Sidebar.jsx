@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
-import { SidebarData } from './Data/SidebarData'
-import '../Style/Sidebar.css'
+import { SidebarData } from '../../Data/SidebarData'
+import './Sidebar.css'
 
 
 
@@ -48,13 +48,13 @@ function Sidebar() {
                 <div className="endline">
                     <ul className="sci">
                         <li>
-                            <Link to="#" target="_blank">Instagram</Link>
+                            <a href="/" target="_blank">Instagram</a>
                         </li>
                         <li>
-                            <Link to="#" target="_blank">Facebook</Link>
+                            <a href="/" target="_blank">Facebook</a>
                         </li>
                         <li>
-                            <Link to="#" target="_blank">Github</Link>
+                            <a href="/" target="_blank">Github</a>
                         </li>
                     </ul>
                 </div>

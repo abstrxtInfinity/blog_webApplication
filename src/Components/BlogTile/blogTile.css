@@ -5,15 +5,18 @@
 .blog-tile {
   width: 400px;
   min-height: 400px;
-  max-height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
-  text-overflow: clip;
-  padding: 0 10px;
+  padding: 10px;
   margin: 10px 0px;
+  cursor: pointer;
+  transition: all 350ms ease-in-out;
 }
+.blog-tile:hover {
+  transform: translateY(-20px);
+}
+
 .blog-tile .imgBox {
   height: 200px;
   margin-bottom: 35px;
@@ -27,21 +30,29 @@
 
 .blog-tile h3 {
   padding: 15px 0;
+  margin-top: 10px;
   border-bottom: 2px solid var(--color);
   border-top: 2px solid var(--color);
   text-transform: capitalize;
   font-size: 20px;
   letter-spacing: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 .blog-tile .description {
   font-size: 12px;
-  display: block;
-  text-overflow: ellipsis;
-  overflow: hidden;
   padding: 15px 5px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 18px;
   margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 .blog-tile .tags {
   font-size: 10px;
@@ -75,5 +86,3 @@
     height: 150px;
   }
 }
-
-
