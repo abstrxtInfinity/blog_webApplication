@@ -1,5 +1,6 @@
 import BlogTile from '../../Components/BlogTile/BlogTile'
 import { BlogData } from '../../Data/BlogData'
+import { Link } from "react-router-dom";
 import './home.css'
 
 function Home() {
@@ -12,9 +13,12 @@ function Home() {
                 <div className="blogs">
                     {
                         BlogData.map((item, index) => {
+                            let path = '/post/' + index;
                             return (
-                                <BlogTile key={index} title={item.title} tags={item.tags} blogDescription={item.blog} imageUrl={item.imageUrl} id={index}/>
-
+                                <Link style={{ textDecoration: 'none', color: 'inherit' }} to={path} >
+                                    <BlogTile key={index} title={item.title} tags={item.tags} blogDescription={item.blog} imageUrl={item.imageUrl} id={index}/>
+                                </Link>
+                                
                             )
                         })
                     }
