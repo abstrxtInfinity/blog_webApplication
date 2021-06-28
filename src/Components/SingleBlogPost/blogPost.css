@@ -76,3 +76,21 @@
     rgba(0, 0, 0, 0)
   );
 }
+
+.close-btn {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #222;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  transition: all 100ms ease-in-out;
+}
+
+.close-btn:hover {
+  color: rgb(167, 0, 0);
+}

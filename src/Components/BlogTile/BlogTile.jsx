@@ -1,9 +1,11 @@
 import './blogTile.css'
+import { Link } from "react-router-dom";
 
 function BlogTile(props) {
     return (
         <>
-            <div className="blog-tile">
+            <Link style={{ textDecoration: 'none', color: 'inherit' }} to={{ pathname: `/post/${props.id}`, state: { data: props }, }} >
+                <div className="blog-tile">
                 {
                     props.imageUrl === "" ? <div className="empty"></div> : <div className="imgBox">
                         <img src={props.imageUrl} alt="" />
@@ -16,8 +18,9 @@ function BlogTile(props) {
                 <div className="tags">
                     {props.tags}
                 </div>
-
             </div>
+            </Link>
+            
         </>
     )
 }
