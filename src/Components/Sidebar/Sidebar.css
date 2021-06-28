@@ -62,8 +62,19 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #000;
+  color: var(--bg);
   border-top: 1px solid var(--color);
 }
+.endline h4 {
+  cursor: pointer;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+
 .sci {
   display: flex;
   justify-content: center;

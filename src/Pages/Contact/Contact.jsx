@@ -7,7 +7,11 @@ function Contact() {
         <div id="container">
           <h1>&bull; Contact Us &bull;</h1>
 
-          <form action="#" method="post" id="contact_form">
+          <form
+            action="https://formspree.io/f/xrgrgzqg"
+            method="POST"
+            enctype="multipart/form-data"
+            id="contact_form">
             <div className="name">
               <label htmlFor="name"></label>
               <input

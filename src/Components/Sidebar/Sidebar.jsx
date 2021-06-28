@@ -46,7 +46,7 @@ function Sidebar() {
                     }
                 </ul>
                 <div className="endline">
-                    <ul className="sci">
+                    {/* <ul className="sci">
                         <li>
                             <a href="/" target="_blank">Instagram</a>
                         </li>
@@ -56,7 +56,11 @@ function Sidebar() {
                         <li>
                             <a href="/" target="_blank">Github</a>
                         </li>
-                    </ul>
+                    </ul> */}
+                    <h4>
+                        Made by
+                        <span className="emoji"> 👨🏻‍💻</span>
+                    </h4>
                 </div>
             </div>
         </>
